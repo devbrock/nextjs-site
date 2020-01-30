@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -111,13 +111,7 @@ var _jsxFileName = "C:\\Users\\brock\\Desktop\\nextjs-site\\components\\Layout.j
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Layout = props => {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: undefined
-  }, __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -145,61 +139,175 @@ var _jsxFileName = "C:\\Users\\brock\\Desktop\\nextjs-site\\components\\Navbar.j
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Navbar = () => {
-  return __jsx("ul", {
-    class: "flex bg-blue-900 p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: undefined
-  }, __jsx("li", {
-    class: "mr-6",
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: undefined
   }, __jsx("a", {
-    class: "font-medium text-gray-200 hover:text-blue-800",
     href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: undefined
-  }, "Home")), __jsx("li", {
-    class: "mr-6",
+  }, " ", __jsx("img", {
+    className: "navbar-branding",
+    src: "/logo.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }), " "), __jsx("ol", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: undefined
+  }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: undefined
   }, __jsx("a", {
-    class: "font-medium text-gray-200 hover:text-blue-800",
-    href: "/about",
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: undefined
-  }, "About")), __jsx("li", {
-    class: "mr-6",
+  }, "Home")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: undefined
   }, __jsx("a", {
-    class: "font-medium text-gray-200 hover:text-blue-800",
-    href: "/blog",
+    href: "/blogs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: undefined
-  }, "Blogs")));
+  }, " Blogs")))));
 };
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./components/RecentProjects.js":
+/*!**************************************!*\
+  !*** ./components/RecentProjects.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return RecentProjects; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\brock\\Desktop\\nextjs-site\\components\\RecentProjects.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function RecentProjects() {
+  return __jsx("div", {
+    className: "child",
+    style: {
+      marginTop: '4em'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("h1", {
+    className: "blue",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "What I've been working on"), __jsx("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "Project 1"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Project 2"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Project 3")));
+}
+
+/***/ }),
+
+/***/ "./components/Skills.js":
+/*!******************************!*\
+  !*** ./components/Skills.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Skills; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\brock\\Desktop\\nextjs-site\\components\\Skills.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function Skills() {
+  return __jsx("div", {
+    className: "child",
+    style: {
+      marginTop: '4em'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("h1", {
+    className: "pink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "Skills"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "Et nulla ex voluptate amet officia exercitation adipisicing adipisicing consectetur dolor culpa. Eu aliquip mollit esse ea officia irure consequat. Adipisicing ea ea irure nisi aute aute esse proident occaecat magna quis nisi amet. Dolor dolore dolor voluptate Lorem eiusmod consectetur. Officia qui duis consequat enim aliquip id adipisicing aute. Sunt irure labore nulla et amet ut veniam nulla ex. Quis consequat irure quis Lorem sint ad excepteur est aliqua aute fugiat ut nisi laboris."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Et nulla ex voluptate amet officia exercitation adipisicing adipisicing consectetur dolor culpa. Eu aliquip mollit esse ea officia irure consequat. Adipisicing ea ea irure nisi aute aute esse proident occaecat magna quis nisi amet. Dolor dolore dolor voluptate Lorem eiusmod consectetur. Officia qui duis consequat enim aliquip id adipisicing aute. Sunt irure labore nulla et amet ut veniam nulla ex. Quis consequat irure quis Lorem sint ad excepteur est aliqua aute fugiat ut nisi laboris."));
+}
 
 /***/ }),
 
@@ -216,41 +324,74 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_RecentProjects__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/RecentProjects */ "./components/RecentProjects.js");
+/* harmony import */ var _components_Skills__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Skills */ "./components/Skills.js");
 var _jsxFileName = "C:\\Users\\brock\\Desktop\\nextjs-site\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 const index = () => {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: undefined
-  }, __jsx("div", {
-    className: "bg-gray-800",
-    style: {
-      maxWidth: '720px'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
-  }, __jsx("h1", {
-    className: "text-2xl",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: undefined
-  }, "This is the home page!"))));
+  }, __jsx("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    className: "welcome",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, "Hey there! I'm Brock. ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }), __jsx("span", {
+    className: "yellow",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, "Full Stack Web Developer"), "."), __jsx("p", {
+    className: "blurb",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, "Commodo mollit irure exercitation est cupidatat qui commodo ex aliqua duis. Excepteur Lorem aute tempor ut ea do non enim Lorem consequat duis amet et. Nulla cupidatat proident consectetur duis consectetur nisi. Fugiat proident est ex reprehenderit nulla voluptate amet exercitation aliqua esse. Irure deserunt amet occaecat incididunt aliqua commodo. Incididunt ex in aute eu velit nisi.")), __jsx(_components_Skills__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }), __jsx(_components_RecentProjects__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  })));
 };
 /* harmony default export */ __webpack_exports__["default"] = (index);
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
