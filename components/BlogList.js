@@ -2,7 +2,6 @@ import Link from "next/link";
 
 const BlogList = (props) => {
 
-
   function reformatDate(fullDate) {
     const date = new Date(fullDate)
     return date.toDateString().slice(4);
