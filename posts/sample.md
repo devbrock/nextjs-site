@@ -1,6 +1,7 @@
 ---
+layout: blog
 title: "Sample Blog Post"
-author: Brock Balducci
+author: "Brock Balducci"
 date: 2019-07-10
 summary: "Short summary about the post here! Magna enim occaecat enim anim labore velit aute ad qui cillum et occaecat. Ullamco dolore minim proident cupidatat consectetur nostrud est fugiat. Esse voluptate deserunt ipsum esse et cillum minim ex cillum minim exercitation duis Lorem commodo."
 ---

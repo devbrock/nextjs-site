@@ -1,5 +1,4 @@
-exports.ids = [0];
-exports.modules = {
+webpackHotUpdate("static\\development\\pages\\blogs.js",{
 
 /***/ "./posts/sample.md":
 /*!*************************!*\
@@ -14,5 +13,5 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ })
 
-};;
-//# sourceMappingURL=0.js.map
+})
+//# sourceMappingURL=blogs.js.50fa816e538385456988.hot-update.js.map

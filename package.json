@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
     "start": "next start",
     "build:css": "tailwind build styles/styles.css -o styles/index.css"
   },
@@ -13,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "gray-matter": "^4.0.2",
+    "netlify-cms": "^2.10.16",
     "next": "^9.2.0",
     "raw-loader": "^4.0.0",
     "react": "^16.12.0",
