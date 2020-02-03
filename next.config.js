@@ -25,7 +25,7 @@ module.exports = {
         const createPathObject = (pathObject, slug) => {
             return {
                 ...pathObject,
-                [`/posts/${slug}`]: {
+                [`/blog/${slug}`]: {
                     page: "/blog/[slug]",
                     query: { slug: slug }
                 }
