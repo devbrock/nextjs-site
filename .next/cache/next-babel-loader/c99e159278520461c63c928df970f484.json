@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nexport default function RecentProjects() {\n  return __jsx(\"div\", {\n    style: {\n      marginTop: '2em'\n    }\n  }, __jsx(\"div\", null, \"Project 1\"), __jsx(\"div\", null, \"Project 2\"), __jsx(\"div\", null, \"Project 3\"));\n}","map":null,"metadata":{},"sourceType":"module"}

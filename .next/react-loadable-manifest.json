@@ -6,21 +6,5 @@
       "file": "static/chunks/0.js",
       "publicPath": "static/chunks/0.js"
     }
-  ],
-  "./post2.md": [
-    {
-      "id": "./posts/post2.md",
-      "name": "./posts/post2.md",
-      "file": "static/chunks/3.js",
-      "publicPath": "static/chunks/3.js"
-    }
-  ],
-  "./sample.md": [
-    {
-      "id": "./posts/sample.md",
-      "name": "./posts/sample.md",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
   ]
 }

@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nexport default function Skills() {\n  return __jsx(\"div\", {\n    style: {\n      marginTop: '2em'\n    }\n  }, __jsx(\"div\", null, \"Skill 1\"), __jsx(\"div\", null, \"Skill 2\"), __jsx(\"div\", null, \"Skill 3\"));\n}","map":null,"metadata":{},"sourceType":"module"}
