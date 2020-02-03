@@ -13,7 +13,7 @@ const BlogList = (props) => {
         {props.allBlogs.length > 1 && props.allBlogs.map(post => (
           <div key={post.slug} className="block">
             <Link
-              href={{ pathname: `/blog/${post.slug}` }}
+              href={{ pathname: `/posts/${post.slug}` }}
             >
               <a style={{ textDecoration: 'none' }}>
                 <h2 className="red-dark">{post.document.data.title}</h2>
