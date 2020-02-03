@@ -1,28 +1,39 @@
-const glob = require('glob')
-
-module.exports = ({
+module.exports = {
     webpack: function (config) {
         config.module.rules.push({
             test: /\.md$/,
-            use: "raw-loader"
-        });
-        return config;
+            use: 'raw-loader',
+        })
+        return config
     },
-    exportPathMap: async function () {
-        const routes = {
-            '/': { page: '/' },
+
+    exportPathMap: async function (defaultPathMap) {
+        // get all .md files in the posts dir
+        const blogPostFiles = glob.sync("content/posts/**/*.md")
+
+        // remove path and extension to leave filename only
+        const blogPostSlugs = blogPostFiles.map(file =>
+            file
+                .split("/")[2]
+                .replace(/ /g, "-")
+                .slice(0, -3)
+                .trim()
+        )
+
+        const createPathObject = (pathObject, slug) => {
+            return {
+                ...pathObject,
+                [`/posts/${slug}`]: {
+                    page: "/posts/[slug]",
+                    query: { slug: slug }
+                }
+            }
         }
-        //get all .md files in the posts dir
-        const blogs = glob.sync('/posts/**/*.md')
+        const blogPostsPathMap = blogPostSlugs.reduce(createPathObject, {})
 
-        //remove path and extension to leave filename only
-        const blogSlugs = blogs.map(file => file.split('/')[2].replace(/ /g, '-').slice(0, - 3).trim())
-
-        //add each blog to the routes obj
-        blogSlugs.forEach(blog => {
-            routes[`/blog/${blog}`] = { page: '/blog/[slug]', query: { slug: blog } };
-        });
-
-        return routes
+        return {
+            ...defaultPathMap,
+            ...blogPostsPathMap
+        }
     }
-});
+}
