@@ -4,7 +4,7 @@ import BlogList from '../components/BlogList'
 import matter from 'gray-matter'
 
 
-export default function blogs(props) {
+function blogs(props) {
     return (
         <>
             <Layout>
@@ -22,7 +22,6 @@ export default function blogs(props) {
 }
 
 
-// src/pages/index.js
 blogs.getInitialProps = async function () {
     // get all .md files from the src/posts dir
     const posts = (context => {
@@ -56,3 +55,5 @@ blogs.getInitialProps = async function () {
         allBlogs: posts,
     }
 }
+
+export default blogs

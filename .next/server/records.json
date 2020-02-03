@@ -1,0 +1,84 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/_app.js": 0,
+      "multi private-next-pages/blog/[slug].js": 1,
+      "multi private-next-pages/blogs.js": 2,
+      "multi private-next-pages/index.js": 3,
+      "multi next/dist/pages/_error": 4,
+      "multi next/dist/pages/_document": 5
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    }
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 0,
+      "on-error-server.js": 1,
+      "static\\l_ee1nn9CDNtZYC-ArXJm\\pages\\_app.js": 2,
+      "static\\l_ee1nn9CDNtZYC-ArXJm\\pages\\_document.js": 3,
+      "static\\l_ee1nn9CDNtZYC-ArXJm\\pages\\_error.js": 4,
+      "static\\l_ee1nn9CDNtZYC-ArXJm\\pages\\blog\\[slug].js": 5,
+      "static\\l_ee1nn9CDNtZYC-ArXJm\\pages\\blogs.js": 6,
+      "static\\l_ee1nn9CDNtZYC-ArXJm\\pages\\index.js": 7,
+      "static\\CZY2zAj85CsNnrAXneiJh\\pages\\_app.js": 10,
+      "static\\CZY2zAj85CsNnrAXneiJh\\pages\\_document.js": 11,
+      "static\\CZY2zAj85CsNnrAXneiJh\\pages\\_error.js": 12,
+      "static\\CZY2zAj85CsNnrAXneiJh\\pages\\blog\\[slug].js": 13,
+      "static\\CZY2zAj85CsNnrAXneiJh\\pages\\blogs.js": 14,
+      "static\\CZY2zAj85CsNnrAXneiJh\\pages\\index.js": 15,
+      "static\\Ey0BgNpYo9XDzVjNpi40T\\pages\\_app.js": 2,
+      "static\\Ey0BgNpYo9XDzVjNpi40T\\pages\\_document.js": 3,
+      "static\\Ey0BgNpYo9XDzVjNpi40T\\pages\\_error.js": 4,
+      "static\\Ey0BgNpYo9XDzVjNpi40T\\pages\\blog\\[slug].js": 5,
+      "static\\Ey0BgNpYo9XDzVjNpi40T\\pages\\blogs.js": 6,
+      "static\\Ey0BgNpYo9XDzVjNpi40T\\pages\\index.js": 7,
+      "static\\3pjYmoXujqeKVQsoct0C3\\pages\\_app.js": 10,
+      "static\\3pjYmoXujqeKVQsoct0C3\\pages\\_document.js": 11,
+      "static\\3pjYmoXujqeKVQsoct0C3\\pages\\_error.js": 12,
+      "static\\3pjYmoXujqeKVQsoct0C3\\pages\\blog\\[slug].js": 13,
+      "static\\3pjYmoXujqeKVQsoct0C3\\pages\\blogs.js": 14,
+      "static\\3pjYmoXujqeKVQsoct0C3\\pages\\index.js": 15,
+      "static\\5xRgwKijgF0kznmT3VZ0z\\pages\\_app.js": 2,
+      "static\\5xRgwKijgF0kznmT3VZ0z\\pages\\_document.js": 3,
+      "static\\5xRgwKijgF0kznmT3VZ0z\\pages\\_error.js": 4,
+      "static\\5xRgwKijgF0kznmT3VZ0z\\pages\\blog\\[slug].js": 5,
+      "static\\5xRgwKijgF0kznmT3VZ0z\\pages\\blogs.js": 6,
+      "static\\5xRgwKijgF0kznmT3VZ0z\\pages\\index.js": 7,
+      "static\\uPFLr4MetcVqLvGKq9grN\\pages\\_app.js": 10,
+      "static\\uPFLr4MetcVqLvGKq9grN\\pages\\_document.js": 11,
+      "static\\uPFLr4MetcVqLvGKq9grN\\pages\\_error.js": 12,
+      "static\\uPFLr4MetcVqLvGKq9grN\\pages\\blog\\[slug].js": 13,
+      "static\\uPFLr4MetcVqLvGKq9grN\\pages\\blogs.js": 14,
+      "static\\uPFLr4MetcVqLvGKq9grN\\pages\\index.js": 15,
+      "static\\UJl6IUpEk8xb3ftvEDBNt\\pages\\_app.js": 2,
+      "static\\UJl6IUpEk8xb3ftvEDBNt\\pages\\_document.js": 3,
+      "static\\UJl6IUpEk8xb3ftvEDBNt\\pages\\_error.js": 4,
+      "static\\UJl6IUpEk8xb3ftvEDBNt\\pages\\blog\\[slug].js": 5,
+      "static\\UJl6IUpEk8xb3ftvEDBNt\\pages\\blogs.js": 6,
+      "static\\UJl6IUpEk8xb3ftvEDBNt\\pages\\index.js": 7
+    },
+    "bySource": {
+      "0 posts lazy /^\\.\\/.*\\.md$/ groupOptions: {} namespace object ./post2.md": 8,
+      "0 posts lazy /^\\.\\/.*\\.md$/ groupOptions: {} namespace object ./sample.md": 9
+    },
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
