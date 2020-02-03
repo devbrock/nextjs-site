@@ -80,21 +80,29 @@
       "static\\aX7vk-quaaV2snnRdKCNN\\pages\\_error.js": 12,
       "static\\aX7vk-quaaV2snnRdKCNN\\pages\\blog\\[slug].js": 13,
       "static\\aX7vk-quaaV2snnRdKCNN\\pages\\blogs.js": 14,
-      "static\\aX7vk-quaaV2snnRdKCNN\\pages\\index.js": 15
+      "static\\aX7vk-quaaV2snnRdKCNN\\pages\\index.js": 15,
+      "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\_app.js": 2,
+      "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\_document.js": 3,
+      "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\_error.js": 4,
+      "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\blog\\[slug].js": 5,
+      "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\blogs.js": 6,
+      "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\index.js": 7
     },
     "bySource": {
       "0 posts lazy /^\\.\\/.*\\.md$/ groupOptions: {} namespace object ./post2.md": 8,
-      "0 posts lazy /^\\.\\/.*\\.md$/ groupOptions: {} namespace object ./sample.md": 9
+      "0 posts lazy /^\\.\\/.*\\.md$/ groupOptions: {} namespace object ./sample.md": 9,
+      "0 node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/blog/[slug].js ../../data/config.json": 16
     },
     "usedIds": [
       0,
       1,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
+      16,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
       8,
       9
     ]
