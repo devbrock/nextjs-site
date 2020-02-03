@@ -86,7 +86,13 @@
       "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\_error.js": 4,
       "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\blog\\[slug].js": 5,
       "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\blogs.js": 6,
-      "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\index.js": 7
+      "static\\Q0yG83FJdPtr4Skr6LQnE\\pages\\index.js": 7,
+      "static\\jDnc68j_hjVHDzdeuPKD7\\pages\\_app.js": 10,
+      "static\\jDnc68j_hjVHDzdeuPKD7\\pages\\_document.js": 11,
+      "static\\jDnc68j_hjVHDzdeuPKD7\\pages\\_error.js": 12,
+      "static\\jDnc68j_hjVHDzdeuPKD7\\pages\\blog\\[slug].js": 13,
+      "static\\jDnc68j_hjVHDzdeuPKD7\\pages\\blogs.js": 14,
+      "static\\jDnc68j_hjVHDzdeuPKD7\\pages\\index.js": 15
     },
     "bySource": {
       "0 posts lazy /^\\.\\/.*\\.md$/ groupOptions: {} namespace object ./post2.md": 8,
@@ -96,13 +102,12 @@
     "usedIds": [
       0,
       1,
-      16,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
       8,
       9
     ]

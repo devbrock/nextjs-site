@@ -1,12 +1,4 @@
 {
-  "../../data/config.json": [
-    {
-      "id": "AnCH",
-      "name": "./data/config.json",
-      "file": "static/chunks/27.b6114e23ccf408b7fa1e.js",
-      "publicPath": "static/chunks/27.b6114e23ccf408b7fa1e.js"
-    }
-  ],
   "./post2.md": [
     {
       "id": "UVw3",
