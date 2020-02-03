@@ -1,3 +1,5 @@
+const glob = require("glob")
+
 module.exports = {
     webpack: function (config) {
         config.module.rules.push({
@@ -9,7 +11,7 @@ module.exports = {
 
     exportPathMap: async function (defaultPathMap) {
         // get all .md files in the posts dir
-        const blogPostFiles = glob.sync("content/posts/**/*.md")
+        const blogPostFiles = glob.sync("src/posts/**/*.md")
 
         // remove path and extension to leave filename only
         const blogPostSlugs = blogPostFiles.map(file =>
@@ -24,7 +26,7 @@ module.exports = {
             return {
                 ...pathObject,
                 [`/posts/${slug}`]: {
-                    page: "/posts/[slug]",
+                    page: "/blog/[slug]",
                     query: { slug: slug }
                 }
             }
