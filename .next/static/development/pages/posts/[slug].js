@@ -10605,7 +10605,7 @@ module.exports = function extend() {
 "use strict";
 
 
-const fs = __webpack_require__(/*! fs */ 2);
+const fs = __webpack_require__(/*! fs */ 3);
 const sections = __webpack_require__(/*! section-matter */ "./node_modules/section-matter/index.js");
 const defaults = __webpack_require__(/*! ./lib/defaults */ "./node_modules/gray-matter/lib/defaults.js");
 const stringify = __webpack_require__(/*! ./lib/stringify */ "./node_modules/gray-matter/lib/stringify.js");
@@ -27187,7 +27187,7 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!********************!*\
   !*** fs (ignored) ***!
   \********************/
@@ -27198,7 +27198,7 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!***************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fposts%2F%5Bslug%5D&absolutePagePath=C%3A%5CUsers%5Cbrock%5CDesktop%5Cnextjs-site%5Cpages%5Cposts%5C%5Bslug%5D.js ***!
   \***************************************************************************************************************************************************************/
@@ -27221,5 +27221,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[slug].js.map

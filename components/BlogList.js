@@ -10,7 +10,7 @@ const BlogList = (props) => {
   return (
     <>
       <div className="container" style={{ display: 'block' }}>
-        {props.allBlogs.length > 1 && props.allBlogs.map(post => (
+        {props.allBlogs.length > 0 && props.allBlogs.map(post => (
           <div key={post.slug} className="block">
             <Link
               href={{ pathname: `/posts/${post.slug}` }}

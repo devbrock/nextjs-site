@@ -34,7 +34,7 @@ var BlogList = function BlogList(props) {
       lineNumber: 12
     },
     __self: this
-  }, props.allBlogs.length > 1 && props.allBlogs.map(function (post) {
+  }, props.allBlogs.length > 0 && props.allBlogs.map(function (post) {
     return __jsx("div", {
       key: post.slug,
       className: "block",
@@ -13414,7 +13414,7 @@ module.exports = Function.prototype.bind || implementation;
 "use strict";
 
 
-const fs = __webpack_require__(/*! fs */ 2);
+const fs = __webpack_require__(/*! fs */ 3);
 const sections = __webpack_require__(/*! section-matter */ "./node_modules/section-matter/index.js");
 const defaults = __webpack_require__(/*! ./lib/defaults */ "./node_modules/gray-matter/lib/defaults.js");
 const stringify = __webpack_require__(/*! ./lib/stringify */ "./node_modules/gray-matter/lib/stringify.js");
@@ -22745,7 +22745,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fblogs&absolutePagePath=C%3A%5CUsers%5Cbrock%5CDesktop%5Cnextjs-site%5Cpages%5Cblogs.js ***!
   \*************************************************************************************************************************************/
@@ -22757,7 +22757,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fblogs&
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!********************!*\
   !*** fs (ignored) ***!
   \********************/
@@ -22779,5 +22779,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=blogs.js.map

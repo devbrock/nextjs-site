@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -127,7 +127,7 @@ const BlogList = props => {
       lineNumber: 12
     },
     __self: undefined
-  }, props.allBlogs.length > 1 && props.allBlogs.map(post => __jsx("div", {
+  }, props.allBlogs.length > 0 && props.allBlogs.map(post => __jsx("div", {
     key: post.slug,
     className: "block",
     __source: {
@@ -2224,7 +2224,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/blogs.js ***!
   \******************************/

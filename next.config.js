@@ -21,6 +21,8 @@ module.exports = {
                 .slice(0, -3)
                 .trim()
         )
+        console.log("slugs")
+        console.log(blogPostSlugs)
 
         const createPathObject = (pathObject, slug) => {
             return {
@@ -31,11 +33,17 @@ module.exports = {
                 }
             }
         }
+        console.log("createpathobject")
+        console.log(createPathObject)
+
         const blogPostsPathMap = blogPostSlugs.reduce(createPathObject, {})
+        console.log("blog posts path map")
+        console.log(blogPostsPathMap)
 
         return {
             ...defaultPathMap,
             ...blogPostsPathMap
         }
+
     }
 }
