@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{AnCH:function(t){t.exports=JSON.parse('{"title":"Next Blog","description":"Starter blog using Netlify CMS with Next.js.","repositoryUrl":"https://github.com/devbrock/nextjs-site"}')}}]);
