@@ -2,6 +2,9 @@ import Link from "next/link";
 
 const BlogList = (props) => {
 
+  const { allBlogs } = props
+  console.log(allBlogs)
+
   function reformatDate(fullDate) {
     const date = new Date(fullDate)
     return date.toDateString().slice(4);
@@ -26,7 +29,6 @@ const BlogList = (props) => {
           </div>
         ))}
       </div>
-
     </>
   );
 };

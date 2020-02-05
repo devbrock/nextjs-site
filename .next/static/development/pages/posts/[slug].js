@@ -10605,7 +10605,7 @@ module.exports = function extend() {
 "use strict";
 
 
-const fs = __webpack_require__(/*! fs */ 3);
+const fs = __webpack_require__(/*! fs */ 2);
 const sections = __webpack_require__(/*! section-matter */ "./node_modules/section-matter/index.js");
 const defaults = __webpack_require__(/*! ./lib/defaults */ "./node_modules/gray-matter/lib/defaults.js");
 const stringify = __webpack_require__(/*! ./lib/stringify */ "./node_modules/gray-matter/lib/stringify.js");
@@ -27112,27 +27112,24 @@ BlogTemplate.getInitialProps = function _callee(ctx) {
       switch (_context.prev = _context.next) {
         case 0:
           slug = ctx.query.slug;
-          console.log({
-            slug: slug
-          });
 
           if (!slug) {
-            _context.next = 8;
+            _context.next = 7;
             break;
           }
 
-          _context.next = 5;
+          _context.next = 4;
           return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_6___default.a.awrap(__webpack_require__("./posts lazy recursive ^\\.\\/.*\\.md$")("./".concat(slug, ".md")));
 
-        case 5:
+        case 4:
           content = _context.sent;
           data = gray_matter__WEBPACK_IMPORTED_MODULE_9___default()(content["default"]);
           return _context.abrupt("return", _objectSpread({}, data));
 
-        case 8:
+        case 7:
           return _context.abrupt("return", {});
 
-        case 9:
+        case 8:
         case "end":
           return _context.stop();
       }
@@ -27183,18 +27180,7 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 3:
-/*!********************!*\
-  !*** fs (ignored) ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 4:
+/***/ 1:
 /*!***************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fposts%2F%5Bslug%5D&absolutePagePath=C%3A%5CUsers%5Cbrock%5CDesktop%5Cnextjs-site%5Cpages%5Cposts%5C%5Bslug%5D.js ***!
   \***************************************************************************************************************************************************************/
@@ -27203,6 +27189,17 @@ module.exports = webpackAsyncContext;
 
 module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fposts%2F%5Bslug%5D&absolutePagePath=C%3A%5CUsers%5Cbrock%5CDesktop%5Cnextjs-site%5Cpages%5Cposts%5C%5Bslug%5D.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bslug%5D&absolutePagePath=C%3A%5CUsers%5Cbrock%5CDesktop%5Cnextjs-site%5Cpages%5Cposts%5C%5Bslug%5D.js!./");
 
+
+/***/ }),
+
+/***/ 2:
+/*!********************!*\
+  !*** fs (ignored) ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
 
 /***/ }),
 
@@ -27217,5 +27214,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[slug].js.map

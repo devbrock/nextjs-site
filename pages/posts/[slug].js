@@ -34,7 +34,6 @@ BlogTemplate.getInitialProps = async (ctx) => {
         query: { slug }
     } = ctx
 
-    console.log({ slug })
 
     if (slug) {
         const content = await import(`../../posts/${slug}.md`)

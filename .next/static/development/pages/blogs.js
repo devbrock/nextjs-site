@@ -19,6 +19,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var BlogList = function BlogList(props) {
+  var allBlogs = props.allBlogs;
+  console.log(allBlogs);
+
   function reformatDate(fullDate) {
     var date = new Date(fullDate);
     return date.toDateString().slice(4);
@@ -31,7 +34,7 @@ var BlogList = function BlogList(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 15
     },
     __self: this
   }, props.allBlogs.length > 0 && props.allBlogs.map(function (post) {
@@ -40,7 +43,7 @@ var BlogList = function BlogList(props) {
       className: "block",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 17
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -49,7 +52,7 @@ var BlogList = function BlogList(props) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 18
       },
       __self: this
     }, __jsx("a", {
@@ -58,28 +61,28 @@ var BlogList = function BlogList(props) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 21
       },
       __self: this
     }, __jsx("h2", {
       className: "red-dark",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 22
       },
       __self: this
     }, post.document.data.title), __jsx("h4", {
       className: "red",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 23
       },
       __self: this
     }, " ", post.document.data.author, " | ", reformatDate(post.document.data.date)), __jsx("p", {
       className: "gray-dark",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 24
       },
       __self: this
     }, post.document.data.summary))));
@@ -13414,7 +13417,7 @@ module.exports = Function.prototype.bind || implementation;
 "use strict";
 
 
-const fs = __webpack_require__(/*! fs */ 3);
+const fs = __webpack_require__(/*! fs */ 2);
 const sections = __webpack_require__(/*! section-matter */ "./node_modules/section-matter/index.js");
 const defaults = __webpack_require__(/*! ./lib/defaults */ "./node_modules/gray-matter/lib/defaults.js");
 const stringify = __webpack_require__(/*! ./lib/stringify */ "./node_modules/gray-matter/lib/stringify.js");
@@ -22746,6 +22749,17 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 2:
+/*!********************!*\
+  !*** fs (ignored) ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 4:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fblogs&absolutePagePath=C%3A%5CUsers%5Cbrock%5CDesktop%5Cnextjs-site%5Cpages%5Cblogs.js ***!
   \*************************************************************************************************************************************/
@@ -22754,17 +22768,6 @@ __webpack_require__.r(__webpack_exports__);
 
 module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fblogs&absolutePagePath=C%3A%5CUsers%5Cbrock%5CDesktop%5Cnextjs-site%5Cpages%5Cblogs.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblogs&absolutePagePath=C%3A%5CUsers%5Cbrock%5CDesktop%5Cnextjs-site%5Cpages%5Cblogs.js!./");
 
-
-/***/ }),
-
-/***/ 3:
-/*!********************!*\
-  !*** fs (ignored) ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
 
 /***/ }),
 
@@ -22779,5 +22782,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=blogs.js.map
