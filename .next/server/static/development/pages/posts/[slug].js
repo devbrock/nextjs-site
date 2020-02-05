@@ -364,62 +364,58 @@ function BlogTemplate(props) {
   } // data from getInitialProps
 
 
-  const markdownBody = props.content;
-  let title = "";
-  let author = "";
-  let date = ""; // const frontmatter = props.data
-
-  if (props.data) {
-    // const { title, author, date } = props.data;
-    title = props.data.title;
-    author = props.data.author;
-    date = props.data.date;
-  }
-
+  const {
+    content,
+    data: {
+      title,
+      author,
+      date
+    }
+  } = props;
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_10__["default"], {
     siteTitle: props.siteTitle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 18
     },
     __self: this
   }, __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 19
     },
     __self: this
   }, __jsx("div", {
     className: "block post",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 20
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 21
     },
     __self: this
   }, title), __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 22
     },
     __self: this
   }, author, " | ", reformatDate(date)), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 23
     },
     __self: this
   }, __jsx(react_markdown__WEBPACK_IMPORTED_MODULE_9___default.a, {
-    source: markdownBody,
+    source: content,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 24
     },
     __self: this
   })))));
@@ -427,8 +423,13 @@ function BlogTemplate(props) {
 
 BlogTemplate.getInitialProps = async ctx => {
   const {
+    query: {
+      slug
+    }
+  } = ctx;
+  console.log({
     slug
-  } = ctx.query;
+  });
 
   if (slug) {
     const content = await __webpack_require__("./posts lazy recursive ^\\.\\/.*\\.md$")(`./${slug}.md`);

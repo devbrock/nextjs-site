@@ -27051,62 +27051,55 @@ function BlogTemplate(props) {
   } // data from getInitialProps
 
 
-  var markdownBody = props.content;
-  var title = "";
-  var author = "";
-  var date = ""; // const frontmatter = props.data
-
-  if (props.data) {
-    // const { title, author, date } = props.data;
-    title = props.data.title;
-    author = props.data.author;
-    date = props.data.date;
-  }
-
+  var content = props.content,
+      _props$data = props.data,
+      title = _props$data.title,
+      author = _props$data.author,
+      date = _props$data.date;
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_11__["default"], {
     siteTitle: props.siteTitle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 18
     },
     __self: this
   }, __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 19
     },
     __self: this
   }, __jsx("div", {
     className: "block post",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 20
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 21
     },
     __self: this
   }, title), __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 22
     },
     __self: this
   }, author, " | ", reformatDate(date)), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 23
     },
     __self: this
   }, __jsx(react_markdown__WEBPACK_IMPORTED_MODULE_10___default.a, {
-    source: markdownBody,
+    source: content,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 24
     },
     __self: this
   })))));
@@ -27119,24 +27112,27 @@ BlogTemplate.getInitialProps = function _callee(ctx) {
       switch (_context.prev = _context.next) {
         case 0:
           slug = ctx.query.slug;
+          console.log({
+            slug: slug
+          });
 
           if (!slug) {
-            _context.next = 7;
+            _context.next = 8;
             break;
           }
 
-          _context.next = 4;
+          _context.next = 5;
           return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_6___default.a.awrap(__webpack_require__("./posts lazy recursive ^\\.\\/.*\\.md$")("./".concat(slug, ".md")));
 
-        case 4:
+        case 5:
           content = _context.sent;
           data = gray_matter__WEBPACK_IMPORTED_MODULE_9___default()(content["default"]);
           return _context.abrupt("return", _objectSpread({}, data));
 
-        case 7:
+        case 8:
           return _context.abrupt("return", {});
 
-        case 8:
+        case 9:
         case "end":
           return _context.stop();
       }

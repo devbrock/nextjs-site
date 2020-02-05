@@ -12,21 +12,7 @@ function BlogTemplate(props) {
     }
 
     // data from getInitialProps
-    const markdownBody = props.content
-
-    let title = ""
-    let author = ""
-    let date = ""
-    // const frontmatter = props.data
-
-    if (props.data) {
-        // const { title, author, date } = props.data;
-        title = props.data.title
-        author = props.data.author
-        date = props.data.date
-    }
-
-
+    const { content, data: { title, author, date } } = props
 
     return (
         <Layout siteTitle={props.siteTitle}>
@@ -35,7 +21,7 @@ function BlogTemplate(props) {
                     <h1>{title}</h1>
                     <h4>{author} | {reformatDate(date)}</h4>
                     <div>
-                        <ReactMarkdown source={markdownBody} />
+                        <ReactMarkdown source={content} />
                     </div>
                 </div>
             </div>
@@ -44,7 +30,11 @@ function BlogTemplate(props) {
 }
 
 BlogTemplate.getInitialProps = async (ctx) => {
-    const { slug } = ctx.query
+    const {
+        query: { slug }
+    } = ctx
+
+    console.log({ slug })
 
     if (slug) {
         const content = await import(`../../posts/${slug}.md`)
